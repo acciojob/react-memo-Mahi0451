@@ -13,7 +13,7 @@ let App = () =>{
     let [count,Setcount]=useState(1000000000)
     return(
         <div id='main'>
-        <h1>React.useMEMo</h1>
+        <h1>React.useMemo</h1>
         <Todos set={Settodos} arr={todos} />
         <Count set={Setcount} number={count}/>
         <h1>Expensive Calculation</h1>
